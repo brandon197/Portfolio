@@ -1,0 +1,22 @@
+#contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+}
+
+#contact-1:hover{
+    color:cadetblue;
+    cursor: pointer;
+}
+.contact-links{
+    display:grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    justify-items: center;
+    align-items: center;
+}
+
+#contact-header{
+    margin-bottom:20px;
+}

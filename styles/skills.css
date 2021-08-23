@@ -1,0 +1,19 @@
+.skills-content{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.skills-content ul{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#skills{
+    height:40vh;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#skills{
+    text-align: center;
+}

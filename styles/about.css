@@ -3,5 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:30vh;
+    height:40vh;
+}
+
+#about-text{
+    width:80vw;
+    text-align: center;
 }

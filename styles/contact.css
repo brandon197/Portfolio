@@ -16,7 +16,10 @@
     justify-items: center;
     align-items: center;
 }
---
+.contact-links a{
+    color:inherit;
+}
+
 #contact-header{
     margin-bottom:20px;
 }

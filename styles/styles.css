@@ -3,23 +3,26 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  overflow-x:hidden;
+  overflow-x: hidden;
   text-decoration: none;
-  font-size:35px;
+  font-size: 30px;
 }
-html{
-    scroll-behavior: smooth;
+* a {
+  color: inherit;
+}
+html {
+  scroll-behavior: smooth;
 }
 #navbar {
   width: 100vw;
-  height: 5vh;
+  height: 50px;
   background: rgb(255, 255, 255);
   position: fixed;
 }
 #nav-list {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: 5vh;
+  grid-template-rows: 50px;
   grid-template-areas: "navLogo  navTitle navItem1 navItem2 navItem3";
   justify-items: center;
   align-items: center;
@@ -49,16 +52,14 @@ html{
   color: white;
 }
 
- .subsect{
-    height:100vh;
-    width:100vw;
-    background-color: #17234f;
-    
+.subsect {
+  height: 100vh;
+  width: 100vw;
+  background-color: #17234f;
 }
 
-@media only screen and (max-width:888px){
-  
-  #nav-list{
+@media only screen and (max-width: 888px) {
+  #nav-list {
     font-size: 10px;
   }
 }

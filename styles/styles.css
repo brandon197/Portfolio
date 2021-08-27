@@ -6,6 +6,7 @@
   overflow-x: hidden;
   text-decoration: none;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 * a {
   color: inherit;
@@ -49,13 +50,13 @@ html {
 }
 
 #nav-list a:hover {
-  color: white;
+  color: rgb(134, 0, 0);
 }
 
 .subsect {
   height: 100vh;
   width: 100vw;
-  background-color: #17234f;
+  --background-color: #17234f;
 }
 
 @media only screen and (max-width: 888px) {

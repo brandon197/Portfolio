@@ -10,21 +10,32 @@
     <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="stylesheet" href="./styles/about.css" />
     <link rel="stylesheet" href="./styles/skills.css" />
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section id="navbar">
       <ul id="nav-list">
         <li id="logo">logo</li>
-        <li id="nav-main-title">Brandon Chan</li>
+        <!-- <li id="nav-main-title">Brandon Chan</li> -->
         <li id="nav-item1"><a href="#introduction">Home</a></li>
         <li id="nav-item2"><a href="#about-me">About Me</a></li>
-        <li id="nav-item3"><a href="#contact">Contact</a></li>
+        <li id="nav-item3"><a href="#projects">Projects</a></li>
+        <li id="nav-item4"><a href="#contact">Contact</a></li>
       </ul>
     </section>
 
     <section id="main-sect">
       <div class="subsect" id="introduction">
-        <div class="intro-img"></div>
+        <!-- <div class="intro-img">
+          <img id="avatar" src="images/2.jpg">
+        </div> -->
+        <img id="avatar" src="images/2.jpg" />
         <div class="text-intro">
           <p id="#intro-1">Hi, my name is</p>
           <p id="#intro-2">Brandon Chan.</p>
@@ -49,7 +60,82 @@
         </div>
       </div>
       <hr />
-      <div class="subsect" id="projects">projects</div>
+      <div class="subsect" id="projects">
+        <p style="text-align: center; margin-bottom:30px;">Projects</p>
+        <ul id="project-container">
+          <li class="project-element">
+            
+            <img
+              class="project-image"
+              src="https://cdn.pixabay.com/photo/2021/01/24/21/52/grand-canyon-5946657_960_720.jpg"
+            />
+            <div class="project-content" >
+              <div class="project-title">Title</div>
+              <p class="project-description" >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit quaerat quas eveniet soluta expedita inventore
+                recusandae et, deleniti at ea ut repellendus itaque molestias
+                commodi fugit! Distinctio reprehenderit impedit nihil.
+              </p>
+              <ul class="project-technologies">
+                <li class="project-tech-link">"frontend"</li>
+                <li class="project-tech-link">"Backend"</li>
+                <li class="project-tech-link">"Database"</li>
+              </ul>
+              <ul class="project-links">
+                <li class="project-link contact-1">Github</li>
+                <li class="project-link contact-1">Youtube</li>
+              </ul>
+            </div>
+          </li>
+          <li class="project-element-reverse">
+            <img
+              class="project-image"
+              src="https://cdn.pixabay.com/photo/2021/01/24/21/52/grand-canyon-5946657_960_720.jpg"
+            />
+            <div class="project-content" style="margin-left:30px;">
+              <p class="project-description" >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit quaerat quas eveniet soluta expedita inventore
+                recusandae et, deleniti at ea ut repellendus itaque molestias
+                commodi fugit! Distinctio reprehenderit impedit nihil.
+              </p>
+              <ul class="project-technologies">
+                <li class="project-tech-link">"frontend"</li>
+                <li class="project-tech-link">"Backend"</li>
+                <li class="project-tech-link">"Database"</li>
+              </ul>
+              <ul class="project-links">
+                <li class="project-link contact-1">Github</li>
+                <li class="project-link contact-1">Youtube</li>
+              </ul>
+            </div>
+          </li>
+          <li class="project-element">
+            <img
+              class="project-image"
+              src="https://cdn.pixabay.com/photo/2021/01/24/21/52/grand-canyon-5946657_960_720.jpg"
+            />
+            <div class="project-content" style="margin-left:30px;">
+              <p class="project-description" >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit quaerat quas eveniet soluta expedita inventore
+                recusandae et, deleniti at ea ut repellendus itaque molestias
+                commodi fugit! Distinctio reprehenderit impedit nihil.
+              </p>
+              <ul class="project-technologies">
+                <li class="project-tech-link">"frontend"</li>
+                <li class="project-tech-link">"Backend"</li>
+                <li class="project-tech-link">"Database"</li>
+              </ul>
+              <ul class="project-links">
+                <li class="project-link contact-1">Github</li>
+                <li class="project-link contact-1">Youtube</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
       <hr />
       <div class="subsect" id="skills">
         <div id="skills-header">skills</div>
@@ -80,14 +166,16 @@
       <div class="subsect" id="contact">
         <div id="contact-header">Contact</div>
         <div class="contact-links">
-          <a id="contact-1">email</a>
+          <a class="contact-1">email</a>
           <a
-            id="contact-1"
+            class="contact-1"
             target="_blank"
             href="https://www.linkedin.com/in/brandon-chan185/"
             >LinkedIn</a
           >
-          <a id="contact-1">Github</a>
+          <a class="contact-1" target="_blank" href="https://github.com/brandon197"
+            >Github</a
+          >
         </div>
       </div>
       <hr />

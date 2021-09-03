@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:30vh;
+    height:15vh;
+    background-color: #222222;
 }
 
 .contact-1:hover{
@@ -17,9 +18,10 @@
     align-items: center;
 }
 .contact-links a{
-    color:inherit;
+    color:white;
 }
 
 #contact-header{
     margin-bottom:20px;
+    color:white;
 }

@@ -1,0 +1,10 @@
+@import "./about.css";
+@import "./contact.css";
+@import "./intro.css";
+@import "./projects.css";
+@import "./skills.css";
+@import "./styles.css";
+
+:root{
+    --main-highlight-color:rgb(199, 89, 89);
+}

@@ -124,6 +124,10 @@ body::-webkit-scrollbar-thumb {
     color: white;
     transition: 0.5s ease-in;
   }
+
+  .enlarged-font{
+    font-size:50px;
+  }
 }
 
 .nav-active {
@@ -139,6 +143,10 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 888px) {
   #nav-list {
     font-size: 10px;
+  }
+
+  .default-font{
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 522px) {

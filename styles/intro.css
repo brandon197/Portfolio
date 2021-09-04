@@ -1,16 +1,9 @@
 
 
-/* .intro-img{
-    --background-color: gray;
-   
-    border-radius: 1000px;
-    margin-right:50px;
-} */
 #avatar{
     border-radius: 1000px;
-    /* margin-right:80px; */
-    width:650px;
-    height:650px;
+    width:55vh;
+    height:55vh;
     object-fit: cover;
 }
 #intro-2{
@@ -39,9 +32,9 @@
 
     #avatar{
         margin:0;
-        margin-bottom: 80px;
-        width:400px;
-        height:400px;
+        margin-bottom: 40px;
+        width:40vh;
+        height:40vh;
         justify-self: center;
     }
 
@@ -61,5 +54,11 @@
         height:40vw;
         width:40vw;
         margin-bottom:80px;
+    }
+    #avatar{
+        margin-bottom: 40px;
+    }
+    .text-intro{
+        width:80vw;
     }
   }

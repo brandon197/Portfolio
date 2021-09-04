@@ -10,3 +10,15 @@
     width:60vw;
     text-align: center;
 }
+
+@media screen and (max-width: 1400px) {
+    #about-text{
+        width:80vw;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    #about-text{
+        width:90vw;
+    }
+  }

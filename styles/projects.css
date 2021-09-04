@@ -80,6 +80,10 @@
     .project-technologies,.project-links{
         justify-content: center;
     }
+}
 
-
+@media screen and (max-width:1248px){
+    .project-content{
+        width:85%;
+    }
 }

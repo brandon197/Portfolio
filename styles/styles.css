@@ -15,18 +15,18 @@ html {
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
-  width:0.3em;
+body::-webkit-scrollbar {
+  width: 0.3em;
 }
 
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: rgb(185, 185, 185);
   border-radius: 20px;
-  outline: none
+  outline: none;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
 }
 
-#logo{
+#logo {
   grid-column: 1/2;
 }
 
@@ -63,13 +63,12 @@ body::-webkit-scrollbar-thumb {
 
 .enlarged-font {
   font-size: 60px;
-  color:var(--main-highlight-color);
+  color: var(--main-highlight-color);
 }
 
 #logo {
   grid-area: navLogo;
 }
-
 
 .nav-list a:hover {
   color: var(--main-highlight-color);
@@ -83,6 +82,7 @@ body::-webkit-scrollbar-thumb {
 
 .burger {
   display: none;
+  grid-column: 11/12;
 }
 .burger div {
   width: 25px;
@@ -91,8 +91,8 @@ body::-webkit-scrollbar-thumb {
   margin: 5px;
 }
 
-.nav-list-mobile{
-  display:none;
+.nav-list-mobile {
+  display: none;
 }
 
 @media only screen and (max-width: 1667px) {
@@ -105,48 +105,51 @@ body::-webkit-scrollbar-thumb {
   [id^="nav-item"] {
     display: none;
   }
-  .burger{
-    display:block;
+  .burger {
+    display: block;
     cursor: pointer;
   }
 
-  .nav-list-mobile{
+  .nav-list-mobile {
     display: flex;
-    position:fixed;
+    position: fixed;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    right:0px;
-    height:92vh;
-    width:70vw;
+    right: 0px;
+    height: 92vh;
+    width: 70vw;
     background-color: aquamarine;
     transform: translateX(100%);
-    color:white;
+    color: white;
     transition: 0.5s ease-in;
   }
-
 }
 
-.nav-active{
-  transform:translateX(0%);
+.nav-active {
+  transform: translateX(0%);
 }
 
-@media screen and (max-width:938px){
-  #logo{
+@media screen and (max-width: 938px) {
+  #logo {
     grid-column: 1/3;
-  }
-}
-@media screen and (max-width:522px){
-  #logo{
-    grid-column: 1/4;
-  }
-  #logo a{
-    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 888px) {
   #nav-list {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 522px) {
+  #logo {
+    grid-column: 1/4;
+  }
+  #logo a {
+    font-size: 15px;
+  }
+
+  .burger{
+    grid-column: 10/12;
   }
 }

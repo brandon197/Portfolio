@@ -17,11 +17,14 @@
     justify-items: center;
     align-items: center;
 }
-.contact-links a{
-    color:white;
-}
+
 
 #contact-header{
     margin-bottom:20px;
     color:white;
+}
+
+.contact-icons{
+    width:35px;
+    /* background-color: rgb(255, 255, 255); */
 }

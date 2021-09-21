@@ -1,19 +1,38 @@
 .skills-content{
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
+    width:60vw;
+    /* margin:auto; */
 }
 
-.skills-content ul{
-    margin-left:20px;
-    margin-right:20px;
+.skill-list {
+    display:grid;
+     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
+    align-items: center;
+    justify-items: center;
+
 }
 
 #skills{
-    height:40vh;
+    height:35vh;
     padding-top:10px;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #skills{
     text-align: center;
+}
+#skills-header{
+    margin-bottom:50px;
+}
+
+.skill-icons{
+    width:80px;
+}
+
+@media screen and (max-width: 1400px) {
+    .skills-content{
+        width:80vw;
+    }
 }

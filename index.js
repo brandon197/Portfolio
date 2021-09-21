@@ -14,4 +14,21 @@ const navSlide = () => {
   }
 };
 
+
+let i = 0;
+let txt = 'Brandon Chan';
+let speed = 120;
+
+const typeWriter = () => {
+  console.log("init");
+  
+  if (i < txt.length) {
+    document.querySelector(".typing").innerHTML += txt.charAt(i);
+    //console.log('here:',i,txt.charAt(i));
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
 navSlide();
+

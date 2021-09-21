@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:40vh;
+    height:30vh;
 }
 
 #about-text{
-    width:60vw;
+    width:55vw;
     text-align: center;
 }
 

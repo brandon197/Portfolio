@@ -36,3 +36,21 @@
         width:80vw;
     }
 }
+
+@media screen and (max-width:1000px){
+    #skills{
+        height:50vh;
+    }
+}
+
+@media screen and (max-width:738px){
+    .skill-icons{
+        width:50px;
+    }
+}
+
+@media screen and (max-height:790px),screen and (max-width:400px){
+    #skills{
+        height:100vh;
+    }
+}

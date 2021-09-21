@@ -11,14 +11,31 @@
     text-align: center;
 }
 
+#about-header{
+    margin-bottom:30px;
+}
+
 @media screen and (max-width: 1400px) {
     #about-text{
         width:80vw;
     }
   }
 
+  @media screen and (max-width:1000px){
+    #about-me{
+        height:50vh;
+    }
+}
+
   @media screen and (max-width: 720px) {
     #about-text{
         width:90vw;
     }
+   
   }
+
+  @media screen and (max-height:790px), screen and (max-width:400px){
+    #about-me{
+        height:100vh;
+    }
+}

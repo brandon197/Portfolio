@@ -70,6 +70,9 @@ body::-webkit-scrollbar-thumb {
   /* color: var(--main-highlight-color); */
   color:white;
 }
+.header-font{
+  font-size:30px;
+}
 
 #logo {
   grid-area: navLogo;
@@ -179,5 +182,8 @@ body::-webkit-scrollbar-thumb {
   }
   .burger {
     grid-column: 12/14;
+  }
+  .header-font{
+    font-size:25px;
   }
 }

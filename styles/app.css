@@ -4,6 +4,7 @@
 @import "./projects.css";
 @import "./skills.css";
 @import "./styles.css";
+@import "./resume.css";
 
 :root{
     --main-highlight-color:rgb(199, 89, 89);

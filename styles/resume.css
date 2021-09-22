@@ -1,0 +1,26 @@
+#resume{
+    width:100vw;
+    height:15vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-highlight-color);
+    color:white;
+}
+
+#resume-header{
+    margin-bottom:10px;
+}
+#resume-button{
+    padding:6px;
+    border:2px solid white;
+    border-radius: 5px;
+}
+
+#resume-button:hover{
+    cursor:pointer;
+    background-color:rgb(255, 101, 101);
+}
+
+

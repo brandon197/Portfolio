@@ -38,12 +38,24 @@
 
 .project-links, .project-technologies{
     display:flex;
+    
 }
 
 .project-link, .project-tech-link{
-    margin:0 20px 0 0;
-    width:auto;
-    
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.project-link img{
+    width:25px;
+}
+
+.project-tech-link{
+    font-size:13px;
+    color:white;
+    padding:8px;
+    border-radius: 20px;
+    background-color: var(--main-highlight-color);
 }
 .project-image{
     width:550px;
@@ -79,21 +91,34 @@
 
     .project-links{
         justify-content: center;
+        
     }
+
+    .project-link{
+        margin-right:0;
+        display:flex;
+        justify-content: center;
+    }
+   
     .project-technologies{
         text-align: center;
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(140px,0.2fr));
         justify-content: center;
+        justify-items: center;
     }
     .project-tech-link{
         margin:0 0 15px 0;
+        width:3rem;
+        font-size:11px;
+        
     }
 
     .project-icons{
         margin-top:15px;
         width:25px;
     }
+
 }
 
 @media screen and (max-width:1248px){

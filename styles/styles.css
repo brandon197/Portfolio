@@ -61,6 +61,21 @@ body::-webkit-scrollbar-thumb {
   font-size: 25px;
 }
 
+.progress-container {
+  position:fixed;
+  z-index: 99;
+  width: 100%;
+  height: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.progress-bar {
+  height: 8px;
+  background: var(--main-highlight-color);
+  width: 0%;
+}
+
+
 .default-font {
   font-size: 20px;
 }
@@ -78,7 +93,7 @@ body::-webkit-scrollbar-thumb {
   grid-area: navLogo;
 }
 
-.nav-list a:hover {
+.nav-list a:hover, a:focus {
   color: var(--main-highlight-color);
 }
 

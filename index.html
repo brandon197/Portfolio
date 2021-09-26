@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <title>Brandon Chan</title>
   </head>
   <body>
     <section id="navbar">
@@ -60,7 +61,11 @@
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      
     </section>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
 
     <section id="main-sect">
       <div class="subsect" id="introduction">
@@ -95,29 +100,59 @@
         <div id="skills-header" class="header-font">What I've Worked With:</div>
         <div class="skills-content default-font">
           <ul class="default-font skill-list">
-            
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/html.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/css.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/javascript.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/java.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/react.svg"></li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/html.svg" />
+            </li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/css.svg" />
+            </li>
+            <li class="default-font">
+              <img
+                class="skill-icons"
+                src="./images/icons/skills/javascript.svg"
+              />
+            </li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/java.svg" />
+            </li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/react.svg" />
+            </li>
             <li class="default-font">Express.js</li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/node.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/SQL.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/firebase.svg"></li>
-            <li class="default-font"><img class="skill-icons"src="./images/icons/skills/mongo.svg"></li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/node.svg" />
+            </li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/SQL.svg" />
+            </li>
+            <li class="default-font">
+              <img
+                class="skill-icons"
+                src="./images/icons/skills/firebase.svg"
+              />
+            </li>
+            <li class="default-font">
+              <img class="skill-icons" src="./images/icons/skills/mongo.svg" />
+            </li>
           </ul>
-         
         </div>
       </div>
 
       <div class="subsect" id="resume">
         <div class="header-font" id="resume-header">Need a Resume?</div>
-        <a class="default-font" id="resume-button" href="./docs/Brandon Chan Resume.pdf" target="_blank">Grab a copy</a>
+        <a
+          class="default-font"
+          id="resume-button"
+          href="./docs/Brandon Chan Resume.pdf"
+          target="_blank"
+          >Grab a copy</a
+        >
       </div>
 
       <div class="subsect" id="projects">
-        <p class="header-font" style="text-align: center; margin-bottom: 30px">Projects</p>
+        <p class="header-font" style="text-align: center; margin-bottom: 30px">
+          Projects
+        </p>
         <ul id="project-container">
           <li class="project-element">
             <img class="project-image" src="./images/p1/2.png" />
@@ -133,14 +168,14 @@
                 and improve the effeciency of data in general.
               </p>
               <ul class="project-technologies">
-                <li class="project-tech-link ">React.js</li>
-                <li class="project-tech-link ">Express.js</li>
-                <li class="project-tech-link ">Passport.js</li>
-                <li class="project-tech-link ">MySQL</li>
-                <li class="project-tech-link ">Firebase</li>
+                <li class="project-tech-link">React.js</li>
+                <li class="project-tech-link">Express.js</li>
+                <li class="project-tech-link">Passport.js</li>
+                <li class="project-tech-link">MySQL</li>
+                <li class="project-tech-link">Firebase</li>
               </ul>
               <ul class="project-links">
-                <li style="width:50px">
+                <li style="width: 50px">
                   <a
                     class="project-link contact-1 default-font"
                     target="_blank"
@@ -150,13 +185,15 @@
                       src="./images/icons/contact/github-svgrepo-com.svg"
                   /></a>
                 </li>
-                <li style="width:50px">
+                <li style="width: 50px">
                   <a
                     class="project-link contact-1 default-font"
                     href="https://youtu.be/6hc6acOSLHY"
                     target="_blank"
-                    ><img class="project-icons" src="./images/icons/youtube.svg"></a
-                  >
+                    ><img
+                      class="project-icons"
+                      src="./images/icons/youtube.svg"
+                  /></a>
                 </li>
               </ul>
             </div>
@@ -176,11 +213,11 @@
                 with multiple entries in a database.
               </p>
               <ul class="project-technologies">
-                <li class="project-tech-link ">React.js</li>
-                <li class="project-tech-link ">Firebase</li>
+                <li class="project-tech-link">React.js</li>
+                <li class="project-tech-link">Firebase</li>
               </ul>
               <ul class="project-links">
-                <li style="width:50px">
+                <li style="width: 50px">
                   <a
                     class="project-link contact-1 default-font"
                     target="_blank"
@@ -199,26 +236,67 @@
         <div class="header-font" id="contact-header">Contact</div>
         <div class="contact-links">
           <a class="contact-1" href="mailto: brandonchan.bnc@gmail.com">
-            <img class="contact-icons" src="images/icons/contact/email.svg" />
+            <svg
+            class="contact-icons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"
+              />
+            </svg>
           </a>
           <a
             class="contact-1"
             target="_blank"
             href="https://www.linkedin.com/in/brandon-chan185/"
-            ><img
+            ><svg
               class="contact-icons"
-              src="./images/icons/contact/linkedin-svgrepo-com.svg"
-          /></a>
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 455 455"
+              style="enable-background: new 0 0 455 455"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  style="fill-rule: evenodd; clip-rule: evenodd"
+                  d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z"
+                />
+                <path
+                  style="fill-rule: evenodd; clip-rule: evenodd"
+                  d="M0,0v455h455V0H0z M141.522,378.002H74.016V174.906h67.506V378.002z
+              M107.769,147.186h-0.446C84.678,147.186,70,131.585,70,112.085c0-19.928,15.107-35.087,38.211-35.087
+             c23.109,0,37.31,15.159,37.752,35.087C145.963,131.585,131.32,147.186,107.769,147.186z M385,378.002h-67.524V269.345
+             c0-27.291-9.756-45.92-34.195-45.92c-18.664,0-29.755,12.543-34.641,24.693c-1.776,4.34-2.24,10.373-2.24,16.459v113.426h-67.537
+             c0,0,0.905-184.043,0-203.096H246.4v28.779c8.973-13.807,24.986-33.547,60.856-33.547c44.437,0,77.744,29.02,77.744,91.398V378.002
+             z"
+                />
+              </g>
+            </svg>
+          </a>
           <a
             class="contact-1"
             target="_blank"
             href="https://github.com/brandon197"
           >
-            <img
+            <!-- <img
               class="contact-icons"
               src="./images/icons/contact/github-svgrepo-com.svg"
               style="fill: white"
-            />
+            /> -->
+            <svg
+              class="contact-icons"
+              viewBox="0 0 24 24"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
           </a>
         </div>
       </div>

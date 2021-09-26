@@ -28,3 +28,19 @@
     width:35px;
     /* background-color: rgb(255, 255, 255); */
 }
+
+.contact-icons:hover{
+    fill:white;
+}
+
+@media only screen and (max-height:670px){
+    .contact-icons{
+        width:25px;
+    }
+}
+
+@media only screen and (max-height:570px){
+    .contact-icons{
+        width:15px;
+    }
+}

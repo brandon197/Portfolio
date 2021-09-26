@@ -103,7 +103,7 @@
 
   @media only screen and (max-height:770px){
       #avatar{
-          margin:0;
+          margin:25px;
       }
   }
 

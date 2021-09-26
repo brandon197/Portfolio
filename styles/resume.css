@@ -24,3 +24,9 @@
 }
 
 
+@media screen and (max-height:661px){
+    #resume{
+        height:20vh;
+    }
+
+}

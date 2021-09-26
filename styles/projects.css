@@ -8,6 +8,11 @@
     margin:auto;
 }
 
+#project-sect-title{
+    text-align: center; 
+    margin-bottom: 30px
+}
+
 .project-element{
     display:flex;
     justify-content: center;
@@ -126,3 +131,19 @@
         width:85%;
     }
 }
+@media screen and (max-width:430px){
+    #project-sect-title{
+        margin:0;
+    }
+    .project-image{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:350px){
+
+    .project-image{
+        width:250px;
+    }
+}
+

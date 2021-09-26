@@ -148,7 +148,7 @@ body::-webkit-scrollbar-thumb {
     height: 72vh;
     width: 70vw;
     background-color: aquamarine;
-    transform: translateX(100%);
+    transform: translateX(105%);
     color: white;
     transition: 0.5s ease-in;
     z-index: 90;

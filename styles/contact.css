@@ -37,10 +37,20 @@
     .contact-icons{
         width:25px;
     }
+    #contact{
+        height:20vh;
+    }
 }
 
 @media only screen and (max-height:570px){
+    
+    #contact-header{
+        margin-bottom:60px;
+    }
+    #contact{
+        height:100vh;
+    }
     .contact-icons{
-        width:15px;
+        width:45px;
     }
 }

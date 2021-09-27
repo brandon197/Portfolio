@@ -102,6 +102,16 @@
       }
   }
 
+  @media only screen and (max-width:380px){
+      .typing{
+          width:100%
+      }
+      #avatar{
+          width:25vh;
+          height:25vh;
+      }
+  }
+
   @media only screen and (max-height:770px){
       #avatar{
           margin:25px;

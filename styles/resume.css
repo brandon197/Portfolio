@@ -20,9 +20,12 @@
 
 #resume-button:hover{
     cursor:pointer;
-    background-color:rgb(255, 101, 101);
+    background-color:rgb(168, 70, 70);
 }
 
+#resume-button:active,#resume-button:focus{
+    color:white;
+}
 
 @media screen and (max-height:661px){
     #resume{

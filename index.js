@@ -6,9 +6,11 @@ const navSlide = () => {
 
   if (burger) {
     burger.addEventListener("click", () => {
+      burger.classList.toggle('toggle');
       nav.classList.toggle("nav-active");
     });
     navLink.addEventListener("click", () => {
+      burger.classList.toggle('toggle');
       nav.classList.toggle("nav-active");
     });
   }
@@ -16,7 +18,7 @@ const navSlide = () => {
 
 
 let i = 0;
-let txt = 'Brandon Chan';
+let txt = 'Brandon Chan.';
 let speed = 120;
 
 const typeWriter = () => {

@@ -112,6 +112,7 @@ body::-webkit-scrollbar-thumb {
   height: 3px;
   background-color: rgb(156, 156, 156);
   margin: 5px;
+  transition: all 0.3s ease;
 }
 
 .nav-list-mobile {
@@ -147,15 +148,27 @@ body::-webkit-scrollbar-thumb {
     right: 0px;
     height: 72vh;
     width: 70vw;
-    background-color: aquamarine;
+    background-color: var(--main-highlight-color);
     transform: translateX(105%);
     color: white;
     transition: 0.5s ease-in;
     z-index: 90;
+    
   }
 
   .enlarged-font {
     font-size: 50px;
+  }
+
+  .toggle .line1{
+      transform:rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2{
+    opacity:0;
+  }
+  .toggle .line3{
+      transform:rotate(45deg) translate(-5px, -6px);
   }
 }
 

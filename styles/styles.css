@@ -147,7 +147,8 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-around;
     right: 0px;
     height: 72vh;
-    width: 70vw;
+    width: 20vw;
+    min-width: 155px;
     background-color: var(--main-highlight-color);
     transform: translateX(105%);
     color: white;

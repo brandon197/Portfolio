@@ -57,12 +57,13 @@
 }
 
 .project-tech-link{
-    font-size:13px;
+    font-size:12px;
     color:white;
     padding:8px;
     border-radius: 20px;
     background-color: var(--main-highlight-color);
     align-self: center;
+    text-align: center;
 }
 .project-image{
     width:550px;

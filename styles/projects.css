@@ -49,6 +49,7 @@
 .project-link, .project-tech-link{
     margin-right:20px;
     margin-bottom:20px;
+    
 }
 
 .project-link img{
@@ -61,6 +62,7 @@
     padding:8px;
     border-radius: 20px;
     background-color: var(--main-highlight-color);
+    align-self: center;
 }
 .project-image{
     width:550px;

@@ -48,6 +48,17 @@ body::-webkit-scrollbar-thumb {
   grid-column: 1/2;
 }
 
+#about-me{
+  padding-top:40px;
+  padding-bottom:50px;
+  background-color: rgb(53, 52, 52);
+  color:whitesmoke
+}
+
+#skills{
+  margin-top:30px;
+}
+
 .nav-list {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
